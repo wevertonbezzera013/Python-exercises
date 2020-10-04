@@ -1,0 +1,5 @@
+n = input('Digite seu nome: ')
+print('Olá {:20}!'.format(n))
+print('Olá {:>20}!'.format(n))
+print('Olá {:^20}!'.format(n))
+print('Olá {:=^20}!'.format(n))
